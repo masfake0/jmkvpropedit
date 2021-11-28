@@ -564,7 +564,7 @@ public class JMkvpropedit {
         pnlGeneral.add(chbTitleGeneral, gbc_chbTitleGeneral);
 
         txtTitleGeneral = new JTextField();
-        txtTitleGeneral.setEnabled(false);
+        txtTitleGeneral.setEnabled(true);
         GridBagConstraints gbc_txtTitleGeneral = new GridBagConstraints();
         gbc_txtTitleGeneral.insets = new Insets(0, 0, 5, 0);
         gbc_txtTitleGeneral.fill = GridBagConstraints.HORIZONTAL;
